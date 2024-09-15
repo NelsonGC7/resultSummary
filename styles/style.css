@@ -23,7 +23,7 @@ body{
 .Conteiner{
     width: 100%;
     height: 100vh;
-    background-color: aqua;
+
 }
 .Conteiner__color{
     width: 100%;
@@ -73,4 +73,53 @@ body{
         width: 95%;
         margin: 0 auto;
     }
+}
+.Conteiner__summary{
+
+    width: 100%;
+    height: 54%;
+    padding: 1rem 2rem;
+  
+}
+.Conteiner__summary h2{
+    font-size: 1.3rem;
+    font-weight: 600;
+}
+.Conteiner__summary-box{
+    height: 80%;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+}
+.Conteiner__summary-box div{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    gap: 1rem;
+    #reaction + p{color: var(--Lightred);}
+    #memory + p{color: var(--Orangeyellow);}
+    #verbal + p{color: var(--Greenteal);}
+    #visual + p{color: var(--Cobaltblue);}
+    figure{
+        display: flex;
+        gap: .6rem;
+    }
+    strong{
+        color:black;
+        font-weight: 800;
+    }
+    p{
+        color: rgba(14, 13, 13, 0.37);
+        font-weight: 600;
+    }
+}
+.Conteiner__summary button{
+    background-color:rgb(78, 75, 105);
+    width: 100%;
+    height: 3rem;
+    border: none;
+    border-radius:  2rem;
+    color: white;
+    font-size: large;
+
 }
